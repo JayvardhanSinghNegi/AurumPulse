@@ -19,15 +19,3 @@ This project is recognized with **IP rights under UPES IP Cell**.
 - **ML Models**: LSTM + Autoencoder (TensorFlow)  
 - **Containerization**: Docker  
 
-## This is the UI - Landing Page 
-
- ![AurumPulse UI Screenshot](<img width="1020" height="607" alt="Image" src="https://github.com/user-attachments/assets/f2eab4cf-0bf8-4268-a6e4-c021a019a2f5" />)
-
-## Forecast Output
-
-1. For buyer:
-
-<!--<img width="500" alt="Gold Forecast Example" src="https://github.com/user-attachments/assets/example-forecast.png" />
-
-2. For seller :
--->
