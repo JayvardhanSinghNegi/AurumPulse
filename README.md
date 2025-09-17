@@ -1,9 +1,29 @@
 # AurumPulse Insights – Emotion-Aware Gold Price Forecasting Tool
 
-1. AurumPulse Insights is a collaborative AI project that forecasts gold prices using an LSTM + Autoencoder model with 99% accuracy.  
-2. The system integrates buyer/seller sentiment signals to deliver personalized insights and decision support.  
-3. It features a full-stack, Dockerized ML pipeline (Flask + TensorFlow) with real-time charts and a responsive web UI.  
-4. The project is officially recognized with IP rights under UPES IP Cell.
+AurumPulse Insights is a collaborative AI-powered web application that predicts gold prices with **99% accuracy** using LSTM + Autoencoder models.  
+It integrates user-type sentiment (buyer/seller) to generate personalized insights, helping individuals and businesses make informed decisions.  
+The system features a responsive frontend and a Dockerized ML pipeline built with Flask + TensorFlow.  
+This project is recognized with **IP rights under UPES IP Cell**.
 
-## Tools & Tech
-Python · Flask · TensorFlow · Docker · HTML/CSS/JS 
+## Features
+
+- Forecast gold price trends with LSTM + Autoencoder
+- Integrate buyer/seller sentiment to tailor predictions
+- Responsive and lightweight frontend for ease of use
+- Fully containerized ML pipeline for simple deployment
+
+## Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Flask (Python)  
+- **ML Models**: LSTM + Autoencoder (TensorFlow)  
+- **Containerization**: Docker  
+
+## This is the UI - Landing Page 
+
+<!-- ![AurumPulse UI Screenshot](https://github.com/user-attachments/assets/example-ui.png)
+
+## Example Forecast Output
+
+<img width="500" alt="Gold Forecast Example" src="https://github.com/user-attachments/assets/example-forecast.png" />
+-->
