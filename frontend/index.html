@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AurumPulse Insights</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    AurumPulse Insights
+  </header>
+
+  <div class="goldheart-container">
+    <h2>Predict Next Closing Price</h2>
+    <p>Enter 30 comma-separated closing prices below:</p>
+    
+    <textarea
+      id="price-sequence"
+      rows="4"
+      cols="80"
+      placeholder="e.g., 102.4, 101.8, 103.2, ..."
+    ></textarea>
+
+    <br /><br />
+    <label for="user-type">I am a:</label>
+    <select id="user-type">
+      <option value="buyer">Buyer</option>
+      <option value="seller">Seller</option>
+    </select>
+
+    <br />
+    <button id="submit-button" onclick="submitSequence()">Predict</button>
+    
+    <h3 id="prediction-result">Predicted Price: --</h3>
+    <p id="emotion-result"></p>
+  </div>
+
+  <footer>
+    “The desire of gold is not for gold. It is for the means of freedom and benefit.”
+    — Ralph Waldo Emerson
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+
+/* Header */
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(255, 215, 0, 0.1));
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: gold;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.3);
+  letter-spacing: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+  animation: shine 4s infinite;
+}
+
+
+@keyframes shine {
+  0% { left: -50%; }
+  50% { left: 50%; }
+  100% { left: 150%; }
+}
+
+
+/* Prediction UI Container */
+.goldheart-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+
+/* Textarea */
+textarea {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  resize: none;
+  font-size: 1rem;
+}
+
+
+/* Button */
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+
+button:hover {
+  background: #ffd700;
+  transform: scale(1.05);
+}
+
+
+/* Result Text */
+#prediction-result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: gold;
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.7);
+}
+
+
+/* Footer */
+footer {
+  font-size: 1.2rem;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  margin-top: auto; 
+}
+
+
+/* Dropdown styling */
+select {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+
+/* Emotion message */
+#emotion-result {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+}
