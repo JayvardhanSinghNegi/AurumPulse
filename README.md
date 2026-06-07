@@ -5,6 +5,15 @@ It integrates user-type sentiment (buyer/seller) to generate personalized insigh
 The system features a responsive frontend and a Dockerized ML pipeline built with Flask + TensorFlow.  
 This project is recognized with **IP rights under UPES IP Cell**.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/54d50e96-0575-4bb3-8965-1de38e51fdc7
+
+
+
+
+
 ## Features
 
 - Forecast gold price trends with LSTM + Autoencoder
